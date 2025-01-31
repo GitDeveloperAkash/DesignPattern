@@ -54,7 +54,7 @@ public :
 int main()
 {
 	string configFile("Properties.config");
-		
+	cout << "hello" << endl;	
 	while(1)
 	{
 		cout << Singletonconfig::getconfig(configFile).getValOf("NAME") << " is " << Singletonconfig::getconfig(configFile).getValOf("AGE") << " years Old" << endl;
